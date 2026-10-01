@@ -54,17 +54,24 @@
 
 ## 4. Circuit Photos and Proof of Implementation
 
-> *Note: Placeholders below can be populated with your hosted GitHub image assets.*
-
 ### 4.1 Schematic / Simulation Diagram (Wokwi)
-![Circuit Diagram](circuit_diagram.png)
+<img width="1536" height="2048" alt="Hardware Setup" src="https://github.com/user-attachments/assets/cc62df54-e156-493a-acc5-592ec29b59fd" />
 
 *Figure 1: Wokwi circuit simulation diagram displaying ESP32 GPIO wiring to push button and dual LEDs with current-limiting resistors.*
 
 ### 4.2 Physical Breadboard Circuit
-![Hardware Setup](breadboard_setup.jpg)
+<img width="1536" height="2048" alt="Hardware Setup" src="https://github.com/user-attachments/assets/f3da887b-19a8-4b0c-a246-587b982525f5" />
 
 *Figure 2: Actual physical bench hardware setup illustrating breadboard jumpering, pull-up button input, and dual status LED actuation.*
+
+<img width="164" height="236" alt="Active Pressed State" src="https://github.com/user-attachments/assets/e9d1d0cc-d680-492c-934d-9b34889cce7b" />
+
+*Figure 3: Actual physical bench hardware setup illustrating the Active pressed state
+
+
+### 4.3 Video
+
+https://github.com/user-attachments/assets/3499e64d-23d1-4365-b40c-cbfeda156412
 
 ---
 
