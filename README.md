@@ -1,6 +1,7 @@
 # GPIO Interface: Push-Button State Detection and Dual LED Actuation
 
-A laboratory implementation demonstrating fundamental General Purpose Input/Output (GPIO) digital interfacing on the ESP32 microcontroller using the Arduino framework. This project demonstrates active-low input handling via an internal pull-up resistor and complementary output actuation across two status LEDs.
+A laboratory implementation which shows the fundamental digital interfacing of General Purpose Input/Output (GPIO) on the ESP32 microcontroller using the Arduino framework, this project illustrating the handling of active-low inputs by means of an internal pull-up resistor and the complementary activation of the outputs on two status LEDs.
+
 
 ---
 
@@ -29,10 +30,16 @@ Key technical concepts demonstrated:
 ---
 
 ## Circuit Diagram and Hardware Setup
+<img width="260" height="263" alt="Circuit Diagram" src="https://github.com/user-attachments/assets/700f1ef0-a277-463e-aca5-07c2979df6ba" />
+
+<img width="1536" height="2048" alt="Hardware Setup" src="https://github.com/user-attachments/assets/672d99e2-397e-4351-b6b3-5419dfff93a3" />
+
+
 
 The system consists of an ESP32 board, a tactile momentary push-button connected between `GPIO23` and `GND`, and two LEDs (Red and Blue) connected through current-limiting resistors to `GPIO18` and `GPIO19`.
 
-### Schematic / Wokwi Simulation Diagram
+### Schematic 
+
 
 ```
                  +-------------------+
@@ -47,12 +54,6 @@ The system consists of an ESP32 board, a tactile momentary push-button connected
                  |               GND +-------------------------+
                  +-------------------+
 ```
-
-> **Note:** Replace the placeholder paths below with your actual project images in your repository (e.g., `docs/` or `assets/` directory).
-
-| Wokwi Simulation Wiring | Physical Hardware Implementation |
-| :---: | :---: |
-| ![Wokwi Circuit Diagram](docs/circuit_diagram.png) | ![Physical Breadboard Setup](docs/hardware_setup.jpg) |
 
 ---
 
