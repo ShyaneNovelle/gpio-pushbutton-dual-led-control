@@ -55,7 +55,7 @@
 ## 4. Circuit Photos and Proof of Implementation
 
 ### 4.1 Schematic / Simulation Diagram (Wokwi)
-<img width="1536" height="2048" alt="Hardware Setup" src="https://github.com/user-attachments/assets/cc62df54-e156-493a-acc5-592ec29b59fd" />
+<img width="260" height="263" alt="Circuit Diagram" src="https://github.com/user-attachments/assets/d62025af-098a-4dc8-b3a1-f06c76da6148" />
 
 *Figure 1: Wokwi circuit simulation diagram displaying ESP32 GPIO wiring to push button and dual LEDs with current-limiting resistors.*
 
